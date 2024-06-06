@@ -165,3 +165,21 @@ button {
 button:hover {
     background: #ff758c;
 }
+
+#profile h2{
+  text-align: center;
+  font-size: 44px;
+}
+
+.profile-hero{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+.profile-details{
+  text-align: center;
+}
+
+.profile-details{
+  padding-bottom: 40px;
+}
