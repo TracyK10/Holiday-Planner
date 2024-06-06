@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Holiday Planner</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Holiday Planner</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('home')">Home</a></li>
+                <li><a href="#" onclick="showSection('destinations')">Destinations</a></li>
+                <li><a href="#" onclick="showSection('excursions')">Excursions</a></li>
+                <li><a href="#" onclick="showSection('upcomingHoliday')">Upcoming Holiday</a></li>
+                <li><a href="#" onclick="showSection('profile')">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <div id="hero">
+                <button id="book-now">BOOK NOW</button>
+            </div>
+        </section>
+        <section id="destinations" class="hidden">
+            <h2>Destinations</h2>
+            <!-- Destinations content -->
+        </section>
+        <section id="excursions" class="hidden">
+            <h2>Excursions</h2>
+            <!-- Excursions content -->
+        </section>
+        <section id="upcoming-holiday" class="hidden">
+            <h2>Upcoming Holiday</h2>
+            <p><strong>Destination:</strong> <span id="destination"></span></p>
+            <p><strong>Date:</strong> <span id="date"></span></p>
+            <div id="buttons">
+                <button onclick="showExcursions()">Excursions</button>
+                <button onclick="showPackingList()">Packing List</button>
+                <button onclick="showAttendees()">Attendees</button>
+            </div>
+            <div id="details"></div>
+        </section>
+        <section id="profile" class="hidden">
+            <h2>Profile</h2>
+            <!-- Profile content -->
+            <div class="hero">
+                <img src="https://cdn4.iconfinder.com/data/icons/office-thick-outline/36/office-14-256.png" alt="profile" width="100">
+                <h1>Name</h1>
+            </div>
+            <div class="profile-details">
+                <p><strong>Nickname:</strong></p>
+                <p><strong>Phone number:</strong>0**********23</p>
+                <p><strong>Email: </strong>exampleemail@gmail.com</p>
+                <p><strong>Bio: </strong><input type="text" name="bio" id="bio"></p>
+            </div>
+        </section>
+        <section id="packing-list" class="hidden">
+            <h2>Packing Checklist</h2>
+            <ul id="checklist"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 The Holiday Planner</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

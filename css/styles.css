@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+    color: #333;
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    border-bottom: 2px solid #ff7eb3;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4);
+}
+
+#book-now {
+    background: #ff7eb3;
+    border: none;
+    color: white;
+    padding: 1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5em;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#book-now:hover {
+    background: #ff758c;
+}
+
+main {
+    padding: 2em;
+    background: white;
+    max-width: 800px;
+    margin: 2em auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+footer {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#upcoming-holiday {
+    text-align: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 1em 0;
+}
+
+#buttons button {
+    background: #ff7eb3;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#buttons button:hover {
+    background: #ff758c;
+}
+
+#details {
+    margin-top: 1em;
+}
+
+#packing-list {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#packing-list h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+#checklist {
+    list-style: none;
+    padding: 0;
+}
+
+#checklist h3 {
+    margin-top: 1.5em;
+    color: #ff758c;
+}
+
+#checklist li {
+    margin: 0.5em 0;
+    background: #ffe3e3;
+    padding: 0.5em;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#checklist input[type="checkbox"] {
+    margin-right: 0.5em;
+}
+
+label {
+    flex: 1;
+}
+
+button {
+    background: #ff7eb3;
+    border: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ff758c;
+}
